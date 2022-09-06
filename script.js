@@ -34,4 +34,10 @@ const loop = setInterval(() => {
 },10);
 
 document.addEventListener('keydown', jump);
-document.addEventListener('click', jump);
+
+document.addEventListener("keydown", event => {
+    const { key } = event
+    if (key.toLowerCase() === "r") {
+      location.reload()
+    }
+  })
