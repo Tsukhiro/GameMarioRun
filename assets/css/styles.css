@@ -5,9 +5,52 @@
 }
 
 body{
-    background-image: url(./assets/Block.png);
+    background-image: url(../image/Block.png);
     background-color: #000000;
     background-size: 50px;
+}
+
+.container{
+    height: 100vh;
+    display: grid;
+    text-align: center;
+    padding: 30vh;
+    background-image: url(../image/bg.png);
+    background-size: cover;
+}
+
+.tittle{
+    color: #111111;
+    filter: drop-shadow(8px 8px 4px #FFFFFF);
+    font-size: 60px;
+}
+
+button{
+    width: 150px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+
+    font-weight: 400;
+    font-size: 20px;
+    text-align: center;
+    color: #111111;
+}
+
+p{
+    font-size: 20px;
+    text-align: center;
+}
+
+.information {
+    display: grid;
+    margin: 5% 45%;
+    padding: 25px;
+    border-radius: 30px;
+    width: 200px;
+    height: 200px;
+    background: #fff;
 }
 
 .game-board{
