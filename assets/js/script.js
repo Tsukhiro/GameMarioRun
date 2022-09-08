@@ -1,6 +1,5 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
-const pipeTwo = document.querySelector('.pipeTwo')
 const GameOver = document.querySelector('.GameOver')
 
 const jump = () => {
@@ -22,9 +21,6 @@ const loop = setInterval(() => {
 
         pipe.style.animation = 'none';
         pipe.style.left = `${pipePosition}px`;
-
-        pipeTwo.style.animation = 'none';
-        pipeTwo.style.left = `${pipePosition}px`;
 
         mario.style.animation = 'none';
         mario.style.bottom = `${marioPosition}px`;
