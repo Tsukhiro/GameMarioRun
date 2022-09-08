@@ -70,6 +70,13 @@ p{
     animation: pipe-animation 2s infinite linear;
 }
 
+.pipeTwo{
+    position: absolute;
+    bottom: 0;
+    width: 80px;
+    animation: pipe-animation 3s infinite linear;
+}
+
 .mario{
     width: 150px;
     position: absolute;
@@ -86,6 +93,13 @@ p{
     animation: clouds-animation 20s infinite linear;
 }
 
+.GameOver{
+    width: 280px;
+    display: block;
+    margin: 0px auto;
+    display: none;
+}
+
 @keyframes pipe-animation {
     from{
         right: -80px;
@@ -95,6 +109,7 @@ p{
         right: 100%;
     }
 }
+
 
 @keyframes jump-animation{
 
