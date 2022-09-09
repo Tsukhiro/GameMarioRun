@@ -1,6 +1,7 @@
 const mario = document.querySelector('.mario');
 const pipe = document.querySelector('.pipe');
 const GameOver = document.querySelector('.GameOver')
+const score = document.getElementById('display')
 
 const jump = () => {
     mario.classList.add('jump');
@@ -14,6 +15,7 @@ const jump = () => {
 
 const loop = setInterval(() => {
 
+    const score = 0;
     const pipePosition = pipe.offsetLeft;
     const marioPosition = +window.getComputedStyle(mario).bottom.replace('px', '');
 
@@ -33,6 +35,8 @@ const loop = setInterval(() => {
 
         clearInterval(loop);
     }
+
+
 
 },10);
 
